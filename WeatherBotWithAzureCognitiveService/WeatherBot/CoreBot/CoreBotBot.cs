@@ -73,8 +73,6 @@ namespace CoreBot
                 await UpdateGreetingState(luisResults, dc.Context);
 
 
-              
-
 
                 // Handle conversation interrupts first.
                 var interrupted = await IsTurnInterruptedAsync(dc, topIntent);
