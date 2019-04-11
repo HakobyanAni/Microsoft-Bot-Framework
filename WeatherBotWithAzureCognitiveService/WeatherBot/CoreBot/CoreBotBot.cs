@@ -83,9 +83,6 @@ namespace CoreBot
                     return;
                 }
 
-
-
-
                 // Continue the current dialog
                 var dialogResult = await dc.ContinueDialogAsync();
 
