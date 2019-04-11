@@ -1,0 +1,26 @@
+{
+  "name": "CoreBot",
+  "description": "",
+  "services": [
+    {
+      "type": "endpoint",
+      "id": "1",
+      "name": "development",
+      "appId": "",
+      "appPassword": "",
+      "endpoint": "http://localhost:3978/api/messages"
+    },
+    {
+      "type": "luis",
+      "name": "checkweatherwithluis",
+      "appId": "a5460e94-5b65-4717-97c2-9a9a94978053",
+      "version": "0.1",
+      "authoringKey": "0d9b7136d0f548f4adfe3a5cd1b76a8f",
+      "subscriptionKey": "0d9b7136d0f548f4adfe3a5cd1b76a8f",
+      "region": "westus",
+      "id": "158"
+    }
+  ],
+  "padlock": "",
+  "version": "2.0"
+}
