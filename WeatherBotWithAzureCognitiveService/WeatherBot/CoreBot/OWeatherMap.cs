@@ -50,9 +50,9 @@ namespace CoreBot
                 responseMessage += $"description - {weatherData.weather[0].description}.\n";
             }
 
-            responseMessage += $"temperature - {weatherData.main.temp} Kelvin \n";
-            responseMessage += $"min temperature - {weatherData.main.temp_min} Kelvin \n";
-            responseMessage += $"max temperature - {weatherData.main.temp_max} Kelvin \n";
+            responseMessage += $"temperature - {weatherData.main.temp} Kelvin \n"
+                            + $"min temperature - {weatherData.main.temp_min} Kelvin \n " +
+                            $"max temperature - {weatherData.main.temp_max} Kelvin \n";
 
             if (weatherData.main != null)
             {
