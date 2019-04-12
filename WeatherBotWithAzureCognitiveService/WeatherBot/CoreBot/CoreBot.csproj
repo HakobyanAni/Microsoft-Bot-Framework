@@ -4,6 +4,13 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="WeatherLuis\**" />
+    <Content Remove="WeatherLuis\**" />
+    <EmbeddedResource Remove="WeatherLuis\**" />
+    <None Remove="WeatherLuis\**" />
+  </ItemGroup>
+
   <ItemGroup>    
     <PackageReference Include="Microsoft.AspNetCore.All" />
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.1.1" />
@@ -28,10 +35,6 @@
     <None Update="*.bot">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="WeatherLuis\" />
   </ItemGroup>
 
 </Project>

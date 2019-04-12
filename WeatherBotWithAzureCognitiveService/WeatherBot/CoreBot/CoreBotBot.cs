@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using CoreBot.WeatherLuis;
+using CoreBot.Models;
 using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Schema;
@@ -15,7 +15,7 @@ namespace CoreBot
 {
     public class CoreBotBot : IBot
     {
-        // Supported LUIS Intents
+        // LUIS Intents
         public const string GreetingIntent = "Greeting";
         public const string CancelIntent = "Cancel";
         public const string HelpIntent = "Help";
@@ -72,6 +72,9 @@ namespace CoreBot
                 // update greeting state with any entities captured
                 await UpdateGreetingState(luisResults, dc.Context);
 
+                string LuisEntity = luisResults.Entities.ToString();
+                LuisEntityModel cityToFind = JsonConvert.DeserializeObject<LuisEntityModel>(LuisEntity);
+
                 // Handle conversation interrupts first.
                 var interrupted = await IsTurnInterruptedAsync(dc, topIntent);
                 if (interrupted)
@@ -86,7 +89,6 @@ namespace CoreBot
                 // Continue the current dialog
                 var dialogResult = await dc.ContinueDialogAsync();
 
-                Weather obj = new Weather();
                 // if no one has responded,
                 if (!dc.Context.Responded)
                 {
@@ -100,7 +102,9 @@ namespace CoreBot
                                     await dc.BeginDialogAsync(nameof(GreetingDialog));
                                     break;
                                 case "Weather_GetCondition":
-                                    await obj.GetCityNameFromLuis(entity);
+                                    OWeatherMap weathergetter = new OWeatherMap();
+                                    string weatherResult = await weathergetter.GetWeatherData(cityToFind.Weather_Location[0]);
+                                    await turnContext.SendActivityAsync(weatherResult);
                                     break;
                                 case "None":
                                 default:
@@ -130,12 +134,8 @@ namespace CoreBot
             {
                 if (activity.MembersAdded != null)
                 {
-                    // Iterate over all new members added to the conversation.
                     foreach (var member in activity.MembersAdded)
                     {
-                        // Greet anyone that was not the target (recipient) of this message.
-                        // To learn more about Adaptive Cards,
-                        // See https://aka.ms/msbot-adaptivecards for more details.
                         if (member.Id != activity.Recipient.Id)
                         {
                             var welcomeCard = CreateAdaptiveCardAttachment();
