@@ -50,9 +50,13 @@ namespace CoreBot
                 responseMessage += $"description - {weatherData.weather[0].description}.\n";
             }
 
-            responseMessage += $"temperature - {weatherData.main.temp} Kelvin \n"
-                            + $"min temperature - {weatherData.main.temp_min} Kelvin \n " +
-                            $"max temperature - {weatherData.main.temp_max} Kelvin \n";
+            double temp = Math.Round(weatherData.main.temp - 273.15, 1);
+            double minTemp = Math.Round(weatherData.main.temp_min - 273.15, 1);
+            double maxTemp = Math.Round(weatherData.main.temp_max - 273.15, 1);
+
+            responseMessage += $"temperature - {temp} &#x2103; \n" 
+                            + $"min temperature - {minTemp} &#x2103; \n"
+                            + $"max temperature - {maxTemp} &#x2103; \n";
 
             if (weatherData.main != null)
             {
