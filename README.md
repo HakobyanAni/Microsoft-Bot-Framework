@@ -18,7 +18,7 @@ Your bot is a web service that implements a conversational interface and communi
 Bots are complex apps, with a lot of different parts working together. Like any other complex app, this can lead to some interesting bugs or cause your bot to behave differently than expected. Before publishing, test your bot. We provide 2 ways to test bots before they are released for use: test your bot locally with the emulator. The Bot Framework Emulator, or test your bot on the web in Azure portal. 
 <h3><b>Publish</b></h3>
 When you are ready for your bot to be available on the web, publish your bot to Azure or to your own web service or data center. Having an address on the public internet is the first step to your bot coming to life on your site, or inside chat channels.
-<h3><b>Connect</b></h3>
+<h3>Connect</h3>
 Connect your bot to channels such as Facebook, Messenger, Kik, Skype, Slack, Microsoft Teams, Telegram, text/SMS, Twilio, Cortana, and Skype. Bot Framework does most of the work necessary to send and receive messages from all of these different platforms - your bot application receives a unified, normalized stream of messages regardless of the number and type of channels it is connected to. 
 <h3><b>Evaluate</b></h3>
 Use the data collected in Azure portal to identify opportunities to improve the capabilities and performance of your bot. You can get service-level and instrumentation data like traffic, latency, and integrations. Analytics also provides conversation-level reporting on user, message, and channel data.
