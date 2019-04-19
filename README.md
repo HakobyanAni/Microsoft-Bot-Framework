@@ -2,6 +2,7 @@
 <h3> What is a bot?</h3>
 <b>Bots</b> provide an experience that feels less like using a computer and more like dealing with a person - or at least an intelligent robot. They can be used to shift simple, repetitive tasks, such as taking a dinner reservation or gathering profile information, on to automated systems that may no longer require direct human intervention. <b>Bots</b> are a lot like modern web applications, living on the internet and use APIs to send and receive messages. Bots can do the same things other types of software can do - read and write files, use databases and APIs, and do the regular computational tasks. What makes bots unique is their use of mechanisms generally reserved for human-to-human communication.</br><p>
 <b>Azure Bot Service</b> provides tools to build, test, deploy, and manage intelligent bots all in one place. Through the use of modular and extensible framework provided by the SDK, tools, templates, and AI services developers can create <i>bots that use speech, understand natural language, handle questions and answers, and more.</i></p>
+<i>Creating a bot</i> with Azure Bot Service and creating a bot locally are independent, parallel ways to create a bot.
 <ul><b>Azure Bot Service offers:</b>
   <li>Bot Framework SDK for developing bots</li>
   <li>Bot Framework Tools to cover end-to-end bot development workflow</li>
@@ -22,3 +23,5 @@ When you are ready for your bot to be available on the web, publish your bot to 
 Connect your bot to channels such as Facebook, Messenger, Kik, Skype, Slack, Microsoft Teams, Telegram, text/SMS, Twilio, Cortana, and Skype. Bot Framework does most of the work necessary to send and receive messages from all of these different platforms - your bot application receives a unified, normalized stream of messages regardless of the number and type of channels it is connected to. 
 <h3><b>Evaluate</b></h3>
 Use the data collected in Azure portal to identify opportunities to improve the capabilities and performance of your bot. You can get service-level and instrumentation data like traffic, latency, and integrations. Analytics also provides conversation-level reporting on user, message, and channel data.
+
+<h3>Bot working process</h3>
