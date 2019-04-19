@@ -10,18 +10,21 @@
 <ul><i>Additionally, bots may use other Azure services, such as:</i>
   <li>Azure Cognitive Services to build intelligent applications</li>
 <li>Azure Storage for cloud storage solution</li></ul>
-<h3><b>Plan</b></h3>
+<h3>Plan</h3>
 Before writing code, review the bot design guidelines for best practices and identify the needs for your bot. You can create a simple bot or include more sophisticated capabilities such as speech, natural language understanding, and question answering.
-<h3><b>Build</b></h3>
+<h3>Build</h3>
 Your bot is a web service that implements a conversational interface and communicates with the Bot Framework Service to send and receive messages and events. Bot Framework Service is one of the components of the Azure Bot Service. You can create bots in any number of environments and languages. You can start your bot development in the Azure portal, or use (C#, JavaScript) templates for local development.
-<h3><b>Test</b></h3>
+<h3>Test</h3>
 Bots are complex apps, with a lot of different parts working together. Like any other complex app, this can lead to some interesting bugs or cause your bot to behave differently than expected. Before publishing, test your bot. We provide 2 ways to test bots before they are released for use: test your bot locally with the emulator. The Bot Framework Emulator, or test your bot on the web in Azure portal. 
-<h3><b>Publish</b></h3>
+<h3>Publish</h3>
 When you are ready for your bot to be available on the web, publish your bot to Azure or to your own web service or data center. Having an address on the public internet is the first step to your bot coming to life on your site, or inside chat channels.
 <h3>Connect</h3>
 Connect your bot to channels such as Facebook, Messenger, Kik, Skype, Slack, Microsoft Teams, Telegram, text/SMS, Twilio, Cortana, and Skype. Bot Framework does most of the work necessary to send and receive messages from all of these different platforms - your bot application receives a unified, normalized stream of messages regardless of the number and type of channels it is connected to. 
-<h3><b>Evaluate</b></h3>
+<h3>Evaluate</h3>
 Use the data collected in Azure portal to identify opportunities to improve the capabilities and performance of your bot. You can get service-level and instrumentation data like traffic, latency, and integrations. Analytics also provides conversation-level reporting on user, message, and channel data.
 
 <h3>Bot working process</h3>
 A bot is an app that users interact with in a conversational way, using text, graphics (such as cards or images), or speech. Every interaction between the user and the bot generates an activity. The Bot Framework Service, which is a component of the Azure Bot Service, sends information between the user's bot-connected app (such as Facebook, Skype, Slack, etc. which we call the channel) and the bot. Each channel may include additional information in the activities they send. Before creating bots, it is important to understand how a bot uses activity objects to communicate with its users. 
+<img src="https://user-images.githubusercontent.com/45730967/56442006-1c739f00-6300-11e9-974d-e27065e58b37.png" width="690px" height="421x" /> 
+Two activity types illustrated here are: <i>conversation update</i> and <i>message</i>.
+The Bot Framework Service may send a conversation update when a party joins the conversation. For example, on starting a conversation with the Bot Framework Emulator, you will see two conversation update activities (one for the user joining the conversation and one for the bot joining). The message activity carries conversation information between the parties. Alternatively, the message activity might carry text to be spoken, suggested actions or cards to be displayed.
