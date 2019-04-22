@@ -13,6 +13,7 @@
 <h3>Plan</h3>
 Before writing code, review the bot design guidelines for best practices and identify the needs for your bot. You can create a simple bot or include more sophisticated capabilities such as speech, natural language understanding, and question answering.
 <h3>Build</h3>
+
 Your bot is a web service that implements a conversational interface and communicates with the Bot Framework Service to send and receive messages and events. Bot Framework Service is one of the components of the Azure Bot Service. You can create bots in any number of environments and languages. You can start your bot development in the Azure portal, or use (C#, JavaScript) templates for local development.
 <h3>Test</h3>
 Bots are complex apps, with a lot of different parts working together. Like any other complex app, this can lead to some interesting bugs or cause your bot to behave differently than expected. Before publishing, test your bot. We provide 2 ways to test bots before they are released for use: test your bot locally with the emulator. The Bot Framework Emulator, or test your bot on the web in Azure portal. 
