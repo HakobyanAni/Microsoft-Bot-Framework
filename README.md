@@ -40,13 +40,15 @@ The Bot Framework Service may send a conversation update when a party joins the 
 <b>Language Understanding (LUIS)</b> is a cloud-based API service that applies custom machine-learning intelligence to a user's conversational, natural language text to predict overall meaning, and pull out relevant, detailed information.
 
 LUIS app is also a place for developer to define a custom language model. 
-A client application for LUIS is any conversational application that communicates with a user in natural language to complete a task. Examples of client applications include social media apps, chat bots, and speech-enabled desktop applications.
-<img src="https://user-images.githubusercontent.com/45730967/56668257-493d0300-66c0-11e9-92c1-b5c68e8d24a4.png" width="432px" height="227x" /> 
-LUIS output is a web service with an HTTP endpoint, that you reference from your client application to add natural language understanding to it. So once the <b>LUIS</b> app is published, a client application sends utterances (text) to the LUIS natural language processing endpoint API and receives the results as JSON responses. LUIS gets HTTP request which is user utterance, then turns it to JSON format and gives it to client application. A common client application for LUIS is a chat bot. So LUIS app provides intelligence so the client application can make smart choices. It is important to understand that LUIS doesn't provide those choices.
-A LUIS app contains a <i>domain-specific natural language model</i>. You can start the LUIS app with a prebuilt domain model, build your own model, or blend pieces of a prebuilt domain with your own custom information.
-
-
-
+A client application for LUIS is any conversational application that communicates with a user in natural language to complete a task. Examples of client applications include <i>social media apps, chat bots, and speech-enabled desktop applications.</i>
+<img src="https://user-images.githubusercontent.com/45730967/56668257-493d0300-66c0-11e9-92c1-b5c68e8d24a4.png" width="432px" height="227x" /> <p>
+LUIS output is a web service with an HTTP endpoint, that you reference from your client application to add natural language understanding to it. So once the <b>LUIS</b> app is published, a client application sends utterances (text) to the LUIS natural language processing endpoint API and receives the results as JSON responses. LUIS gets HTTP request which is user utterance, then turns it to JSON format and gives it to client application. A common client application for LUIS is a chat bot. So LUIS app provides intelligence so the client application can make smart choices. It is important to understand that LUIS doesn't provide those choices.<p>
+A LUIS app contains a <i>domain-specific natural language model</i>. You can start the LUIS app with a prebuilt domain model, build your own model, or blend pieces of a prebuilt domain with your own custom information.<p>
 LUIS, as a REST API, can be used with any product, service, or framework that makes an HTTP request. The following list contains the top Microsoft products and services used with LUIS.
-<ul>The top client application for LUIS is:
-  <li>Web app bot quickly creates a LUIS-enabled chat bot to talk with a user via text input</li></ul>
+<p>The top client application for LUIS is:
+  <li><b>Web app bot</b> quickly creates a LUIS-enabled chat bot to talk with a user via text input</li></ul>
+ <p>Tools to quickly and easily use LUIS with a bot:
+  <li><b>LUIS CLI</b> The NPM package provides authoring and prediction with as either a stand-alone command line tool or as import.</li>
+  <li><b>LUISGen</b> LUISGen is a tool for generating strongly typed C# and typescript source code from an exported LUIS model.</li>
+  <li><b>Dispatch</b> allows several LUIS and QnA Maker apps to be used from a parent app using dispatcher model.</li>
+  <li><b>LUDown</b> LUDown is a command line tool that helps manage language models for your bot.</li>
