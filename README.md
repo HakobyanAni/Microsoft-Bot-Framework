@@ -41,6 +41,4 @@ The Bot Framework Service may send a conversation update when a party joins the 
 
 LUIS app is also a place for developer to define a custom language model. 
 A client application for LUIS is any conversational application that communicates with a user in natural language to complete a task. Examples of client applications include social media apps, chat bots, and speech-enabled desktop applications.
-LUIS output is a web service with an HTTP endpoint, that you reference from your client application to add natural language understanding to it.
-
-LUIS gets HTTP request which is user utterance, then turns it to JSON format and gives it to client app. So LUIS app provides intelligence so the Client app can make smart choices. It is important to understand that LUIS doesn't provide those choices.
+LUIS output is a web service with an HTTP endpoint, that you reference from your client application to add natural language understanding to it. So once the <b>LUIS</b> app is published, a client application sends utterances (text) to the LUIS natural language processing endpoint API and receives the results as JSON responses. LUIS gets HTTP request which is user utterance, then turns it to JSON format and gives it to client application. A common client application for LUIS is a chat bot. So LUIS app provides intelligence so the client application can make smart choices. It is important to understand that LUIS doesn't provide those choices.
