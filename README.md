@@ -31,12 +31,12 @@ The Bot Framework Service may send a conversation update when a party joins the 
 
 <h3><i>Creating a bot we can also build intelligent algorithms into bots so that they see, hear, speak, and understand user needs through natural methods of communication using <b>Azure Cognitive Services.</b></i></h3>
 
-<b>Azure Cognitive Services</b>
+<h3><b>Azure Cognitive Services</b></h3>
 
 
 
+<h3><b>Language Understanding Intelligent Service (LUIS)</b></h3>
 
-<b>Language Understanding Intelligent Service (LUIS)</b>
 <b>Language Understanding (LUIS)</b> is a cloud-based API service that applies custom machine-learning intelligence to a user's conversational, natural language text to predict overall meaning, and pull out relevant, detailed information.
 
 LUIS app is also a place for developer to define a custom language model. 
