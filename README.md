@@ -45,10 +45,16 @@ A client application for LUIS is any conversational application that communicate
 LUIS output is a web service with an HTTP endpoint, that you reference from your client application to add natural language understanding to it. So once the <b>LUIS</b> app is published, a client application sends utterances (text) to the LUIS natural language processing endpoint API and receives the results as JSON responses. LUIS gets HTTP request which is user utterance, then turns it to JSON format and gives it to client application. A common client application for LUIS is a chat bot. So LUIS app provides intelligence so the client application can make smart choices. It is important to understand that LUIS doesn't provide those choices.<p>
 A LUIS app contains a <i>domain-specific natural language model</i>. You can start the LUIS app with a prebuilt domain model, build your own model, or blend pieces of a prebuilt domain with your own custom information.<p>
 LUIS, as a REST API, can be used with any product, service, or framework that makes an HTTP request. The following list contains the top Microsoft products and services used with LUIS.
-<p>The top client application for LUIS is:
+<p><ul><i>The top client application for LUIS is:</i>
   <li><b>Web app bot</b> quickly creates a LUIS-enabled chat bot to talk with a user via text input</li></ul>
- <p>Tools to quickly and easily use LUIS with a bot:
+ <p><ul><i>Tools to quickly and easily use LUIS with a bot:</i>
   <li><b>LUIS CLI</b> The NPM package provides authoring and prediction with as either a stand-alone command line tool or as import.</li>
   <li><b>LUISGen</b> LUISGen is a tool for generating strongly typed C# and typescript source code from an exported LUIS model.</li>
   <li><b>Dispatch</b> allows several LUIS and QnA Maker apps to be used from a parent app using dispatcher model.</li>
-  <li><b>LUDown</b> LUDown is a command line tool that helps manage language models for your bot.</li>
+  <li><b>LUDown</b> LUDown is a command line tool that helps manage language models for your bot.</li></ul>
+<ul><i>Other Cognitive Services used with LUIS:</i>
+  <li>QnA Maker allows several types of text to combine into a question and answer knowledge base.</li>
+  <li>Bing Spell Check API provides text correction before prediction.</li>
+  <li>Speech service converts spoken language requests into text.</li>
+  <li>Conversation learner allows you to build bot conversations quicker with LUIS.</li>
+  <li>Project personality chat to handle bot small talk.</li></ul>
