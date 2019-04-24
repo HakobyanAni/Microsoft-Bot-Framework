@@ -28,3 +28,19 @@ A bot is an app that users interact with in a conversational way, using text, gr
 <img src="https://user-images.githubusercontent.com/45730967/56442006-1c739f00-6300-11e9-974d-e27065e58b37.png" width="690px" height="421x" /> 
 Two activity types illustrated here are: <i>conversation update</i> and <i>message</i>.
 The Bot Framework Service may send a conversation update when a party joins the conversation. For example, on starting a conversation with the Bot Framework Emulator, you will see two conversation update activities (one for the user joining the conversation and one for the bot joining). The message activity carries conversation information between the parties. Alternatively, the message activity might carry text to be spoken, suggested actions or cards to be displayed.
+
+<h3><i>Creating a bot we can also build intelligent algorithms into bots so that they see, hear, speak, and understand user needs through natural methods of communication using <b>Azure Cognitive Services.</b></i></h3>
+
+<b>Azure Cognitive Services</b>
+
+
+
+
+<b>Language Understanding Intelligent Service (LUIS)</b>
+<b>Language Understanding (LUIS)</b> is a cloud-based API service that applies custom machine-learning intelligence to a user's conversational, natural language text to predict overall meaning, and pull out relevant, detailed information.
+
+LUIS app is also a place for developer to define a custom language model. 
+A client application for LUIS is any conversational application that communicates with a user in natural language to complete a task. Examples of client applications include social media apps, chat bots, and speech-enabled desktop applications.
+LUIS output is a web service with an HTTP endpoint, that you reference from your client application to add natural language understanding to it.
+
+LUIS gets HTTP request which is user utterance, then turns it to JSON format and gives it to client app. So LUIS app provides intelligence so the Client app can make smart choices. It is important to understand that LUIS doesn't provide those choices.
