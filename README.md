@@ -50,8 +50,8 @@ A client application for LUIS is any conversational application that communicate
 <img src="https://user-images.githubusercontent.com/45730967/56668257-493d0300-66c0-11e9-92c1-b5c68e8d24a4.png" width="432px" height="227x" /> <p>
 LUIS output is a web service with an HTTP endpoint, that you reference from your client application to add natural language understanding to it. So once the <b>LUIS</b> app is published, a client application sends utterances (text) to the LUIS natural language processing endpoint API and receives the results as JSON responses. LUIS gets HTTP request which is user utterance, then turns it to JSON format and gives it to client application. A common client application for LUIS is a chat bot. So LUIS app provides intelligence so the client application can make smart choices. It is important to understand that LUIS doesn't provide those choices.<p>
 A LUIS app contains a <i>domain-specific natural language model</i>. You can start the LUIS app with a prebuilt domain model, build your own model, or blend pieces of a prebuilt domain with your own custom information.<p>
-LUIS, as a REST API, can be used with any product, service, or framework that makes an HTTP request. The following list contains the top Microsoft products and services used with LUIS.
-<p><ul><i>The top client application for LUIS is:</i>
+LUIS, as a REST API, can be used with any product, service, or framework that makes an HTTP request. The following list contains the top Microsoft products and services used with LUIS.<p>
+<ul><i>The top client application for LUIS is:</i>
   <li><b>Web app bot</b> quickly creates a LUIS-enabled chat bot to talk with a user via text input</li></ul>
  <p><ul><i>Tools to quickly and easily use LUIS with a bot:</i>
   <li><b>LUIS CLI</b> The NPM package provides authoring and prediction with as either a stand-alone command line tool or as import.</li>
