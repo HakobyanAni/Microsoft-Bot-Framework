@@ -32,8 +32,12 @@ The Bot Framework Service may send a conversation update when a party joins the 
 <h3><i>Creating a bot we can also build intelligent algorithms into bots so that they see, hear, speak, and understand user needs through natural methods of communication using <b>Azure Cognitive Services.</b></i></h3>
 
 <h3><b>Azure Cognitive Services</b></h3>
-
-
+<li><b>Vision</b>Image-processing algorithms to smartly identify, caption, index, and moderate your pictures and videos.</li>
+<li><b>Knowledge</b>Map complex information and data in order to solve tasks such as intelligent recommendations and semantic search.</li>
+<li><b>Language</b>Allow your apps to process natural language with pre-built scripts, evaluate sentiment and learn how to recognize what users want.</li>
+<li><b>Speech</b>Convert spoken audio into text, use voice for verification, or add speaker recognition to your app.</li>
+<li><b>Search</b>Add Bing Search APIs to your apps and harness the ability to comb billions of webpages, images, videos, and news with a single API call.</li>
+<li><b>Anomaly Detection</b>Add anomaly detection capabilities to your apps to identify problems as soon as they occur.</li>
 
 <h3><b>Language Understanding Intelligent Service (LUIS)</b></h3>
 
