@@ -33,13 +33,13 @@ The Bot Framework Service may send a conversation update when a party joins the 
 
 <h3><b>Azure Cognitive Services</b></h3>
 <i>Azure Cognitive Services</i> are APIs, SDKs, and services available to help developers build intelligent applications without having direct AI or data science skills or knowledge. Azure Cognitive Services enable developers to easily add cognitive features such as emotion and video detection; facial, speech, and vision recognition; and speech and language understanding – into their applications. <i>The goal of Azure Cognitive Services</i> is to help developers create applications that can see, hear, speak, understand, and even begin to reason.<p> 
-  <i>The categories of cognitive services are:</i>
+ <ul><i>The categories of cognitive services are:</i>
 <li><b>Vision</b> --> Image-processing algorithms to smartly identify, caption, index, and moderate your pictures and videos.</li>
 <li><b>Knowledge</b> --> Map complex information and data in order to solve tasks such as intelligent recommendations and semantic search.</li>
 <li><b>Language</b> --> Allow your apps to process natural language with pre-built scripts, evaluate sentiment and learn how to recognize what users want.</li>
 <li><b>Speech</b> --> Convert spoken audio into text, use voice for verification, or add speaker recognition to your app.</li>
 <li><b>Search</b> --> Add Bing Search APIs to your apps and harness the ability to comb billions of webpages, images, videos, and news with a single API call.</li>
-<li><b>Anomaly Detection</b> --> Add anomaly detection capabilities to your apps to identify problems as soon as they occur.</li>
+<li><b>Anomaly Detection</b> --> Add anomaly detection capabilities to your apps to identify problems as soon as they occur.</li></ul>
 
 <h3><b>Language Understanding Intelligent Service (LUIS)</b></h3>
 
