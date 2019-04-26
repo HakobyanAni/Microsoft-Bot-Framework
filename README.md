@@ -42,7 +42,6 @@ The Bot Framework Service may send a conversation update when a party joins the 
 <li><b>Anomaly Detection</b> --> Add anomaly detection capabilities to your apps to identify problems as soon as they occur.</li></ul>
 
 <h3><b>Language Understanding Intelligent Service (LUIS)</b></h3>
-
 <b>Language Understanding (LUIS)</b> is a cloud-based API service that applies custom machine-learning intelligence to a user's conversational, natural language text to predict overall meaning, and pull out relevant, detailed information.
 
 LUIS app is also a place for developer to define a custom language model. 
