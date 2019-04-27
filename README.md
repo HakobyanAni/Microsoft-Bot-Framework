@@ -27,10 +27,7 @@ When you are ready for your bot to be available on the web, publish your bot to 
 Connect your bot to channels such as Facebook, Messenger, Kik, Skype, Slack, Microsoft Teams, Telegram, text/SMS, Twilio, Cortana, and Skype. Bot Framework does most of the work necessary to send and receive messages from all of these different platforms - your bot application receives a unified, normalized stream of messages regardless of the number and type of channels it is connected to. 
 <h3>Evaluate</h3>
 Use the data collected in Azure portal to identify opportunities to improve the capabilities and performance of your bot. You can get service-level and instrumentation data like traffic, latency, and integrations. Analytics also provides conversation-level reporting on user, message, and channel data.
-
-
 <h3><i>Creating a bot we can also build intelligent algorithms into bots so that they see, hear, speak, and understand user needs through natural methods of communication using <b>Azure Cognitive Services.</b></i></h3>
-
 <h3><b>Azure Cognitive Services</b></h3>
 <i>Azure Cognitive Services</i> are APIs, SDKs, and services available to help developers build intelligent applications without having direct AI or data science skills or knowledge. Azure Cognitive Services enable developers to easily add cognitive features such as emotion and video detection; facial, speech, and vision recognition; and speech and language understanding – into their applications. <i>The goal of Azure Cognitive Services</i> is to help developers create applications that can see, hear, speak, understand, and even begin to reason.<p> 
  <ul><i>The categories of cognitive services are:</i>
@@ -40,10 +37,8 @@ Use the data collected in Azure portal to identify opportunities to improve the 
 <li><b>Speech</b> --> Convert spoken audio into text, use voice for verification, or add speaker recognition to your app.</li>
 <li><b>Search</b> --> Add Bing Search APIs to your apps and harness the ability to comb billions of webpages, images, videos, and news with a single API call.</li>
 <li><b>Anomaly Detection</b> --> Add anomaly detection capabilities to your apps to identify problems as soon as they occur.</li></ul>
-
 <h3><b>Language Understanding Intelligent Service (LUIS)</b></h3>
 <b>Language Understanding (LUIS)</b> is a cloud-based API service that applies custom machine-learning intelligence to a user's conversational, natural language text to predict overall meaning, and pull out relevant, detailed information.
-
 LUIS app is also a place for developer to define a custom language model. 
 A client application for LUIS is any conversational application that communicates with a user in natural language to complete a task. Examples of client applications include <i>social media apps, chat bots, and speech-enabled desktop applications.</i>
 <img src="https://user-images.githubusercontent.com/45730967/56668257-493d0300-66c0-11e9-92c1-b5c68e8d24a4.png" width="432px" height="227x" /> <p>
