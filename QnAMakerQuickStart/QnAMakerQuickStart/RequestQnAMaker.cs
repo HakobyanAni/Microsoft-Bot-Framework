@@ -13,7 +13,6 @@ namespace QnAMakerQuickStart
 
         async public static Task<string> SendQuestion(string question)
         {
-
             using (HttpClient client = new HttpClient())
             using (HttpRequestMessage request = new HttpRequestMessage())
             {
