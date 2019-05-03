@@ -18,9 +18,10 @@ namespace QnAMakerQuickStart
             using (HttpRequestMessage request = new HttpRequestMessage())
             {
                 request.Method = HttpMethod.Post;
-                var questionObj = new { question = question };
 
+                var questionObj = new { question = question };
                 request.Content = new StringContent(JsonConvert.SerializeObject(questionObj), Encoding.UTF8, "application/json");
+
                 request.RequestUri = new Uri(uri);
                 request.Headers.Add("Authorization", endpointKey);
 
