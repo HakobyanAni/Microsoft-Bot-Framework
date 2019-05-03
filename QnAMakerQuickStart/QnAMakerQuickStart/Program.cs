@@ -16,6 +16,7 @@ namespace QnAMakerQuickStart
             string answer = RequestQnAMaker.GetAnAnswer(response);
 
             Console.WriteLine(answer);
+
             Console.ReadKey();
         }
     }
