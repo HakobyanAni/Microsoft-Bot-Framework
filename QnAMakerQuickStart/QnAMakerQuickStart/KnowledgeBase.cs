@@ -7,6 +7,7 @@ namespace QnAMakerQuickStart
         [JsonProperty("answers")]
         public Answers[] Answers;
     }
+
     public class Answers
     {
         [JsonProperty("questions")]
