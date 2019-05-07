@@ -66,5 +66,6 @@ LUIS, as a REST API, can be used with any product, service, or framework that ma
 <h3><b>QnA Maker</b></h3>
 <i><b>QnA Maker</b> is a cloud-based API service that creates a conversational, question and answer layer over your data.</i></p>
 QnA Maker enables you to create a knowledge-base(KB) from your semi-structured content such as Frequently Asked Question (FAQ) URLs, product manuals, support documents and custom questions and answers. <i>The QnA Maker service answers your users' natural language questions by matching it with the best possible answer from the QnAs in your Knowledge base.</i></p>
-<i>The web portal</i> (www.qnamaker.ai) enables you to create, manage, train and publish your service without any developer experience. Once the service is published to an endpoint, a client application such as a chat bot can manage the conversation with a user to get questions and respond with the answers.</br>
+<i>The web portal</i> (www.qnamaker.ai) enables you to create, manage, train and publish your service without any developer experience. Once the service is published to an endpoint, a client application such as a chat bot can manage the conversation with a user to get questions and respond with the answers.</br></br>
+
 <img src="https://user-images.githubusercontent.com/45730967/57064587-cc211780-6cd7-11e9-906a-b1b004233387.png" width="702px" height="493x" />
