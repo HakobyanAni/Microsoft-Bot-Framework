@@ -43,7 +43,6 @@ Use the data collected in Azure portal to identify opportunities to improve the 
 <li><b>Speech</b> --> Convert spoken audio into text, use voice for verification, or add speaker recognition to your app.</li>
 <li><b>Search</b> --> Add Bing Search APIs to your apps and harness the ability to comb billions of webpages, images, videos, and news with a single API call.</li>
 <li><b>Anomaly Detection</b> --> Add anomaly detection capabilities to your apps to identify problems as soon as they occur.</li></ul>
-
 <h3><b>Language Understanding Intelligent Service (LUIS)</b></h3>
 <b>Language Understanding (LUIS)</b> is a cloud-based API service that applies custom machine-learning intelligence to a user's conversational, natural language text to predict overall meaning, and pull out relevant, detailed information.
 LUIS app is also a place for developer to define a custom language model. It offers a fast and effective way of adding language understanding to applications. A client application for LUIS is any conversational application that communicates with a user in natural language to complete a task. Examples of client applications include <i>social media apps, chat bots, and speech-enabled desktop applications.</i>
