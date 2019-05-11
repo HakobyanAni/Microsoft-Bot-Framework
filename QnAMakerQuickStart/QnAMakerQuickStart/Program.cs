@@ -6,7 +6,7 @@ namespace QnAMakerQuickStart
     class Program
     {
         // This example is only to show how to deal with QnA Maker. You can put this example into the bot, 
-        // give configurtions and work with it.
+        // give configurations and work with it.
         static void Main(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
