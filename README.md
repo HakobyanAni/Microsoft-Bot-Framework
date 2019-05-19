@@ -64,7 +64,6 @@ LUIS, as a REST API, can be used with any product, service, or framework that ma
   <li>Speech service converts spoken language requests into text.</li>
   <li>Conversation learner allows you to build bot conversations quicker with LUIS.</li>
   <li>Project personality chat to handle bot small talk.</li></ul>
-
 <h3><b>QnA Maker</b></h3>
 <i><b>QnA Maker</b> is a cloud-based API service that creates a conversational, question and answer layer over your data.</i></p>
 QnA Maker enables you to create a knowledge-base(KB) from your semi-structured content such as Frequently Asked Question (FAQ) URLs, product manuals, support documents and custom questions and answers. <i>The QnA Maker service answers your users' natural language questions by matching it with the best possible answer from the QnAs in your Knowledge base.</i></p>
