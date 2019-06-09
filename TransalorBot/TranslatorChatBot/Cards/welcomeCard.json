@@ -1,0 +1,28 @@
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+            "type": "Image",
+            "url": "https://insights.diligent.com/wp-content/uploads/2019/03/Why-Google-Translate-Should-Not-Be-Used-For-Entity-Management.jpg",
+            "size": "stretch"
+        },
+        {
+            "type": "TextBlock",
+            "spacing": "medium",
+            "size": "default",
+            "weight": "bolder",
+            "text": "Welcome to Translator Bot!",
+            "wrap": true,
+            "maxLines": 0
+        },
+        {
+            "type": "TextBlock",
+            "size": "default",
+            "isSubtle": "true",
+            "text": "Hello! I'm your translator assistant. Ask me something and I'll translate it to any language you want.\"",
+            "wrap": true,
+            "maxLines": 0
+        }
+    ]
+}

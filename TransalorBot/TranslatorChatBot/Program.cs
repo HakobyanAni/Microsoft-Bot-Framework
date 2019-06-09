@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace TranslatorAssistantBot
+namespace TranslatorChatBot
 {
     public class Program
     {

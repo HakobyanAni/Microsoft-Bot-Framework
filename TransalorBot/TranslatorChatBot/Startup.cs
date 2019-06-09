@@ -7,9 +7,9 @@ using Microsoft.Bot.Connector.Authentication;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-using TranslatorAssistantBot.Bots;
+using TranslatorChatBot.Bots;
 
-namespace TranslatorAssistantBot
+namespace TranslatorChatBot
 {
     public class Startup
     {
