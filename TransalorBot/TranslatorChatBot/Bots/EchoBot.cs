@@ -13,9 +13,8 @@ namespace TranslatorChatBot.Bots
     {
         protected override async Task OnMessageActivityAsync(ITurnContext<IMessageActivity> turnContext, CancellationToken cancellationToken)
         {
-            string targetLanguage = "arm";
             string sourceLanguage = "en";
-            string botResponse = GoogleTranslator.TranslateText(turnContext.Activity.Text, targetLanguage, sourceLanguage);
+            string botResponse = GoogleTranslator.TranslateText(turnContext.Activity.Text, sourceLanguage);
             await turnContext.SendActivityAsync(MessageFactory.Text(botResponse), cancellationToken);
         }
 
