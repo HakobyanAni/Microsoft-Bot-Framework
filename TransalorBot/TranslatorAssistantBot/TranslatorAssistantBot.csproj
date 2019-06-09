@@ -5,24 +5,21 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="GoogleTranslator\TranslatorAssistantProject" />
+    <None Remove="GoogleAssistant\TranslatorAssistantProject" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="GoogleTranslator\TranslatorAssistantProject" />
+    <Content Include="GoogleAssistant\TranslatorAssistantProject" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Google.Apis.Auth" Version="1.40.1" />
     <PackageReference Include="Google.Cloud.Translation.V2" Version="1.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Microsoft.Bot.Builder.AI.Luis" Version="4.4.3" />
-    <PackageReference Include="Microsoft.Bot.Builder.Dialogs" Version="4.4.3" />
     <PackageReference Include="Microsoft.Bot.Builder.Integration.AspNet.Core" Version="4.4.3" />
-    <PackageReference Include="Microsoft.Recognizers.Text.DataTypes.TimexExpression" Version="1.1.5" />
   </ItemGroup>
 
-  <ItemGroup>
+    <ItemGroup>
     <Content Update="appsettings.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

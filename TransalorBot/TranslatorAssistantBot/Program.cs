@@ -1,8 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Logging;
 
-namespace TransalorBot
+namespace TranslatorAssistantBot
 {
     public class Program
     {
@@ -13,11 +12,6 @@ namespace TransalorBot
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .ConfigureLogging((logging) =>
-                {
-                    logging.AddDebug();
-                    logging.AddConsole();
-                })
                 .UseStartup<Startup>();
     }
 }

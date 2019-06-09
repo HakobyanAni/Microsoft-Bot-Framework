@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Google.Apis.Auth.OAuth2;
 using Google.Cloud.Translation.V2;
 
-namespace TransalorBot.GoogleTranslator
+namespace TranslatorAssistantBot.GoogleAssistant
 {
     public class GoogleTranslator
     {

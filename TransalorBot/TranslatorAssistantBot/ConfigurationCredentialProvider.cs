@@ -1,7 +1,7 @@
 using Microsoft.Bot.Connector.Authentication;
 using Microsoft.Extensions.Configuration;
 
-namespace TransalorBot
+namespace TranslatorAssistantBot
 {
     public class ConfigurationCredentialProvider : SimpleCredentialProvider
     {
